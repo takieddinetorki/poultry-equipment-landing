@@ -6,6 +6,7 @@
     <title>Poultry & Mushroom Equipment Solutions</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
@@ -21,17 +22,45 @@
                 <a href="#testimonials">Testimonials</a>
                 <a href="#contact" class="cta-button">Contact Us</a>
             </div>
+            <div class="language-selector">
+                <select>
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                    <option value="ar">AR</option>
+                </select>
+            </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>Revolutionize Your Poultry and Mushroom Production</h1>
-            <p>Premium quality equipment, locally manufactured for optimal performance</p>
+            <h1>Advanced Poultry & Mushroom Farming Solutions</h1>
+            <p>Premium quality equipment designed for optimal performance and maximum efficiency in modern farming operations</p>
             <div class="hero-buttons">
-                <a href="#products" class="primary-button">View Our Machines</a>
-                <a href="#contact" class="secondary-button">Request a Quote</a>
+                <a href="#products" class="primary-button">
+                    <i class="fas fa-box-open"></i>
+                    Explore Our Products
+                </a>
+                <a href="#contact" class="secondary-button">
+                    <i class="fas fa-phone-alt"></i>
+                    Get a Free Consultation
+                </a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">98%</span>
+                <span class="stat-label">Success Rate</span>
             </div>
         </div>
     </section>
@@ -39,24 +68,30 @@
     <!-- About Us Section -->
     <section id="about" class="about">
         <div class="about-content">
-            <h2>About Us</h2>
+            <div class="section-header">
+                <h2>About Our Company</h2>
+                <p>Leading the way in agricultural equipment innovation</p>
+            </div>
             <div class="about-grid">
                 <div class="about-text">
-                    <p>With over 10 years of experience in the industry, we specialize in manufacturing high-quality poultry and mushroom farming equipment. Our commitment to excellence and innovation drives us to deliver the best solutions for your agricultural needs.</p>
+                    <p>With over a decade of experience in the industry, we specialize in manufacturing high-quality poultry and mushroom farming equipment. Our commitment to excellence and innovation drives us to deliver the best solutions for your agricultural needs.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>ISO Certified Manufacturing</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Advanced Technology Integration</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Custom Engineering Solutions</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="achievements">
-                    <div class="achievement-item">
-                        <i class="fas fa-industry"></i>
-                        <h3>Local Manufacturing</h3>
-                    </div>
-                    <div class="achievement-item">
-                        <i class="fas fa-medal"></i>
-                        <h3>Premium Quality</h3>
-                    </div>
-                    <div class="achievement-item">
-                        <i class="fas fa-chart-line"></i>
-                        <h3>Proven Performance</h3>
-                    </div>
+                <div class="about-image">
+                    <img src="assets/about-factory.jpg" alt="Our Manufacturing Facility">
                 </div>
             </div>
         </div>
@@ -64,18 +99,49 @@
 
     <!-- Products Section -->
     <section id="products" class="products">
-        <h2>Our Equipment</h2>
+        <div class="section-header">
+            <h2>Our Equipment Solutions</h2>
+            <p>Premium quality equipment for modern farming operations</p>
+        </div>
         <div class="product-categories">
             <div class="category">
                 <h3>Poultry Hatchery Equipment</h3>
                 <div class="product-grid">
-                    <!-- Product cards will be added here -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/hatchery-1.jpg" alt="Hatchery Equipment">
+                        </div>
+                        <div class="product-info">
+                            <h4>Advanced Hatchery Systems</h4>
+                            <ul class="product-features">
+                                <li>Automated temperature control</li>
+                                <li>High-efficiency ventilation</li>
+                                <li>Smart monitoring system</li>
+                            </ul>
+                            <a href="#" class="product-cta">View Details</a>
+                        </div>
+                    </div>
+                    <!-- More product cards will be added here -->
                 </div>
             </div>
             <div class="category">
                 <h3>Mushroom Farming Systems</h3>
                 <div class="product-grid">
-                    <!-- Product cards will be added here -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/mushroom-1.jpg" alt="Mushroom Farming System">
+                        </div>
+                        <div class="product-info">
+                            <h4>Automated Growing Chambers</h4>
+                            <ul class="product-features">
+                                <li>Climate control system</li>
+                                <li>Automated watering</li>
+                                <li>Growth monitoring</li>
+                            </ul>
+                            <a href="#" class="product-cta">View Details</a>
+                        </div>
+                    </div>
+                    <!-- More product cards will be added here -->
                 </div>
             </div>
         </div>
@@ -83,65 +149,106 @@
 
     <!-- Why Choose Us Section -->
     <section id="why-us" class="why-us">
-        <h2>Why Choose Us</h2>
+        <div class="section-header">
+            <h2>Why Choose Our Solutions</h2>
+            <p>Experience the difference with our premium equipment</p>
+        </div>
         <div class="features-grid">
             <div class="feature">
-                <i class="fas fa-tools"></i>
+                <div class="feature-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
                 <h3>Superior Materials</h3>
-                <p>Premium quality materials and finishing</p>
+                <p>Premium quality materials and finishing for long-lasting performance</p>
             </div>
             <div class="feature">
-                <i class="fas fa-cogs"></i>
+                <div class="feature-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
                 <h3>Custom Solutions</h3>
-                <p>Tailored to your specific needs</p>
+                <p>Tailored to your specific needs and requirements</p>
             </div>
             <div class="feature">
-                <i class="fas fa-headset"></i>
+                <div class="feature-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
                 <h3>Local Support</h3>
-                <p>Dedicated service and installation</p>
+                <p>Dedicated service and installation team</p>
             </div>
             <div class="feature">
-                <i class="fas fa-hands-helping"></i>
+                <div class="feature-icon">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
                 <h3>After-Sales Service</h3>
-                <p>Comprehensive post-sale support</p>
+                <p>Comprehensive post-sale support and maintenance</p>
             </div>
         </div>
     </section>
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials">
-        <h2>What Our Clients Say</h2>
+        <div class="section-header">
+            <h2>What Our Clients Say</h2>
+            <p>Success stories from our satisfied customers</p>
+        </div>
         <div class="testimonial-slider">
-            <!-- Testimonial cards will be added here -->
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"The equipment has significantly improved our production efficiency. The quality and service are exceptional."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="assets/client-1.jpg" alt="Client">
+                    <div class="author-info">
+                        <h4>Mohamed Ali</h4>
+                        <p>Farm Manager, ABC Poultry</p>
+                    </div>
+                </div>
+            </div>
+            <!-- More testimonial cards will be added here -->
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <h2>Get in Touch</h2>
+        <div class="section-header">
+            <h2>Get in Touch</h2>
+            <p>Let's discuss your project requirements</p>
+        </div>
         <div class="contact-container">
             <form class="contact-form">
-                <div class="form-group">
-                    <input type="text" placeholder="Name" required>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Your Phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="interest">Product Interest</label>
+                        <select id="interest" required>
+                            <option value="">Select Product Interest</option>
+                            <option value="hatchery">Hatchery Equipment</option>
+                            <option value="mushroom">Mushroom Systems</option>
+                            <option value="both">Both</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="form-group">
-                    <input type="email" placeholder="Email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Tell us about your project" required></textarea>
                 </div>
-                <div class="form-group">
-                    <input type="tel" placeholder="Phone Number" required>
-                </div>
-                <div class="form-group">
-                    <select required>
-                        <option value="">Select Product Interest</option>
-                        <option value="hatchery">Hatchery Equipment</option>
-                        <option value="mushroom">Mushroom Systems</option>
-                        <option value="both">Both</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <textarea placeholder="Message" required></textarea>
-                </div>
-                <button type="submit" class="primary-button">Request Quote</button>
+                <button type="submit" class="primary-button">
+                    <i class="fas fa-paper-plane"></i>
+                    Send Message
+                </button>
             </form>
         </div>
     </section>
@@ -150,27 +257,49 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
-                <h3>Company Info</h3>
-                <p>RC: XXXXXX</p>
-                <p>NIF: XXXXXX</p>
+                <div class="footer-logo">
+                    <img src="assets/logo-white.png" alt="Company Logo">
+                </div>
+                <p>Leading manufacturer of premium poultry and mushroom farming equipment.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> +213 XXX XXX XXX</p>
+                    <p><i class="fas fa-envelope"></i> info@company.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Address, City, Country</p>
+                </div>
             </div>
             <div class="footer-section">
                 <h3>Quick Links</h3>
-                <a href="#about">About Us</a>
-                <a href="#products">Products</a>
-                <a href="#contact">Contact</a>
+                <ul class="footer-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#why-us">Why Choose Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
             <div class="footer-section">
                 <h3>Connect With Us</h3>
                 <div class="social-links">
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="newsletter">
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
             <p>&copy; 2024 Your Company Name. All rights reserved.</p>
-            <p>Powered by Excellist</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
         </div>
     </footer>
 </body>
